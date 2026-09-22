@@ -1,0 +1,16 @@
+h2{
+    color: red;
+    background-color: bisque;
+}
+p{
+    background-color: rgb(210, 201, 235);
+}
+.special-text{
+    color: aqua;
+}
+.special-note{
+    color: blueviolet;
+}
+#title{
+    color: rgb(71, 28, 28);
+}

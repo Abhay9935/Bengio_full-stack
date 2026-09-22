@@ -1,0 +1,11 @@
+div{
+    background-color: aqua;
+}
+.inner-box{
+    background-color: rgb(124, 124, 132);
+    width: 200px;
+}
+span{
+    background-color: black;
+    color: blanchedalmond;
+}
