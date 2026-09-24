@@ -1,0 +1,15 @@
+#item-1{
+    background-color: orange;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#item-3{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+}
+#item-2{
+    background-color: green;
+    height: 200px;
+    margin-top: 100px;
+}
