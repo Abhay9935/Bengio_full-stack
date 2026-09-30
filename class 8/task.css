@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    background-color: yellow;
+    padding: 20px;
+    width: 70vw;
+    overflow: scroll;
+    margin: 20px auto;
+}
+div{
+    background-color: red;
+    padding: 20px;
+    width: 200vw;
+}
