@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+
+}
+.card{
+    padding: 24px;
+    width: 400px;
+
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin: 40px auto;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin: 0px auto 16px auto;
+    background-color: green;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+p{
+    text-align: center;
+    color: #666;
+    margin: 0;
+}
