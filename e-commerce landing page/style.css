@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 20px 40px;
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: aliceblue;
+}
+a{
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.cart{
+    background-color: goldenrod;
+    padding: 7px;
+    width: 100px;
+    height: 35px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.hero{
+    height: 350px;
+    background: linear-gradient(to right, #948873 0%, #907b67 45%, #845f4d 100%);
+}
+
+.subtitle{
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    opacity: 0.65;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: azure;
+}
+
+.description{
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+    opacity: 0.65;
+}
+
+.item-1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button1{
+    background-color: goldenrod;
+    padding: 10px 30px;
+    border: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.products{
+    background-color: antiquewhite;
+    height: 500px;
+    text-align: center;
+}
+
+.featured{
+    padding-top: 40px;
+    color: darkgoldenrod;
+    opacity: .70;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+.item-2{
+    opacity: 0.60;
+}
+
+
+footer{
+    background-color: darkolivegreen;
+    height: 60px;
+    text-align: center;
+}
+.footer-logo{
+    padding: 7px;
+    color: #e5e3dd;
+}
+.footer-link{
+    padding-top: 3px;
+}
+
+.main_card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px 0 50px 0;
+}
+
+.card {
+    width: 325px;
+    height: 330px;
+    border: 1px solid #e5e3dd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-placeholder-1 {
+    background-color: #cdaa88;
+    width: 323px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.image-placeholder-2 {
+    background-color: #97a991;
+    width: 323px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.image-placeholder-3 {
+    background-color: #b69ba3;
+    width: 323px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.info {
+    padding: 15px 16px 5px 16px;
+}
+
+.info h3 {
+    color: #4d4a46;
+}
+
+.info p {
+    font-size: 10px;
+    color: #898681;
+}
+
+.product-auction {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 16px 16px;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #373737;
+}
+
+.button2 {
+    background-color: white;
+    color: #555;
+    border: 1px solid #777;
+    border-radius: 7px;
+    padding: 7px 12px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+}
+.badge-new{
+    background-color: goldenrod;
+    width: 50px;
+    height: 20px;
+    border: 5px;
+    border-radius: 20px;
+    opacity: 0.75;
+}
