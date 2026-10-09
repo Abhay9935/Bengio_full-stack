@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
 nav{
     padding: 20px 40px;
     display: flex;
@@ -28,11 +33,18 @@ a{
     height: 35px;
     border: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.85;
 }
 
 .hero{
     height: 350px;
-    background: linear-gradient(to right, #948873 0%, #907b67 45%, #845f4d 100%);
+    background-color: #907b67;
+    /* background: linear-gradient(to right, #948873 0%, #907b67 45%, #845f4d 100%); */
+    background-image: url("https://images.openai.com/static-rsc-4/AaNmPdjppvflnJYekbZMI58MJTJTF0-q-ja5qYupppWd4lZXTqydhQNYy7PWRjxfZdAEC5sNXtWaRHoIQJtcol06uSrrwN7PYHM6C8g6FazEDHh7Jo-2BOf0GGY4CsGS8HoKeP81j8Ltla3Hqpq8UXwWNg6SoNIPIG-ooT6ZWrA?purpose=inline");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .subtitle{
@@ -58,6 +70,7 @@ h1{
 .item-1{
     text-align: center;
     padding-top: 50px;
+    opacity: 0.85;
 }
 
 .button1{
@@ -66,11 +79,12 @@ h1{
     border: 10px;
     border-radius: 20px;
     color: black;
+    cursor: pointer;
 }
 
 .products{
     background-color: antiquewhite;
-    height: 500px;
+    /* height: 500px; */
     text-align: center;
 }
 
@@ -112,31 +126,39 @@ footer{
 .card {
     width: 325px;
     height: 330px;
-    border: 1px solid #e5e3dd;
+    border: 1px solid antiquewhite;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    background-color: #e5e3dd;
 }
 
-.image-placeholder-1 {
+.image-1 {
     background-color: #cdaa88;
-    width: 323px;
     height: 230px;
     border-radius: 6px;
+    background-image: url(images/Cosy\ Latte\ Morning\ Portrait.png);
+    background-size: cover;
+    background-position: center; 
 }
 
-.image-placeholder-2 {
+.image-2 {
     background-color: #97a991;
-    width: 323px;
     height: 230px;
     border-radius: 6px;
+    background-image: url(images/Cozy\ Kitchen\ Salad\ Portrait.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.image-placeholder-3 {
+.image-3 {
     background-color: #b69ba3;
-    width: 323px;
     height: 230px;
     border-radius: 6px;
+    background-image: url(images/Cosy\ Pink\ Vase\ Lifestyle\ Portrait.png);
+    background-size: cover; 
+    background-position: center;
 }
 
 .info {
@@ -176,12 +198,54 @@ footer{
     font-family: Arial, sans-serif;
     font-size: 9px;
     font-weight: bold;
+    opacity: 0.85;
 }
-.badge-new{
+.new{
     background-color: goldenrod;
     width: 50px;
     height: 20px;
     border: 5px;
     border-radius: 20px;
     opacity: 0.75;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cart:hover{
+    scale: 1.1;
+    transition-duration: 0s;
+    opacity: 1
+}
+.cart:active{
+    background-color: #907b67;
+}
+
+.item-1:hover{
+    scale: 1.1;
+    opacity: 1;
+}
+
+.button1:active{
+    background-color: #907b67;
+}
+
+.button2:hover{
+    scale: 1.1;
+    transition-duration: 0s;
+    opacity: 1;
+}
+
+.button2:active{
+    background-color: #907b67;
+}
+
+@media (max-width: 700px) {
+    .main_card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_card .card{
+        width: 90%;
+    }
 }
