@@ -37,40 +37,41 @@
 
 // 'use strict'
 
-// //unexpected behavior
-// console.log(totalMarks);
+// // Accessing a let variable before its declaration causes a ReferenceError.
+// // console.log(totalMarks);
 
 // //declaration + initialization
 // let totalMarks = 100;
 // console.log(totalMarks);
 // //use 1000 line code
 
-// //re-declaration (this work but can introduce bug)
+// //re-declaration is not allowed for let
+// // let totalMarks = 900;
 
-// let totalMarks = 900;
+// //re-assign
+// totalMarks = 900;
 // console.log(totalMarks);
 
 // //re-assign
-// let totalMarks = 700;
+// totalMarks = 700;
 // console.log(totalMarks);
 
 //----------const---------------
 
-'use strict'
+// 'use strict'
 
-//unexpected behavior
-console.log(totalMarks);
+// //unexpected behavior
+// console.log(totalMarks); // ReferenceError: Cannot access 'totalMarks' before initialization
 
-//declaration + initialization
-const totalMarks = 100;
-console.log(totalMarks);
-//use 1000 line code
+// //declaration + initialization
+// const totalMarks = 100;
+// console.log(totalMarks);
+// //use 1000 line code
 
-//re-declaration (this work but can introduce bug)
+// //re-declaration is not allowed
+// // const totalMarks = 900;
+// // console.log(totalMarks);
 
-const totalMarks = 900;
-console.log(totalMarks);
-
-//re-assign
-const totalMarks = 700;
-console.log(totalMarks);
+// //re-assign is not allowed
+// // totalMarks = 700;
+// // console.log(totalMarks);
