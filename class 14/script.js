@@ -48,3 +48,44 @@
 //     console.log(i);
 // }
 
+
+
+
+
+
+
+// let marks = [97, 45, 43, 57, 43];
+// console.log(marks);
+// console.log(marks.length);
+// console.log(typeof(marks));
+
+// let heros = ["ironman", "saktiman", "hulk", "chotu", "motu", "patlu"];
+// console.log(heros);
+// console.log(heros.length);
+// console.log(typeof(heros));
+// heros[0] = "abhay"
+// console.log(heros)
+// console.log(heros[1] = "kartik", heros)
+
+
+// let heros = ["ironman", "saktiman", "hulk", "chotu", "motu", "patlu"];
+// let i = 0;
+// while (i < heros.length) {
+//     console.log(heros[i]);
+//     i++
+// }
+
+// for (i = 0; i < heros.length; i++) {
+//     console.log(heros[i]);
+// }
+
+// for (let hero of heros) {
+//     console.log(hero);
+// }
+
+
+// for (let hero in heros){
+//     console.log(hero.toUpperCase());
+// } //prints index
+
+
